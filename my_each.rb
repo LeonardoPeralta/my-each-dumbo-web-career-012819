@@ -4,12 +4,10 @@ def my_each(collection)
 if block_given?
 i = 0
 
-    while i < names.length
-      yield(names[i])
+    while i < collection.length
+      yield(collection[i])
       i = i + 1
     end
-    names
-  else
-    puts "Hey! No block was given!"
+    collection
   end
 end
