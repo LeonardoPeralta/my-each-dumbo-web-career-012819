@@ -4,7 +4,7 @@ if block_given?
 i = 0
 
     while i < collection.length
-      yield(collection[i])
+      yield(collection.each { |item| puts item})
       i += 1
     end
     collection
