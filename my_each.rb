@@ -8,7 +8,7 @@ i = 0
       i += 1
     end
     collection
-  else
-    puts
-  end
+  # else
+  #   puts
+  # end
 end
