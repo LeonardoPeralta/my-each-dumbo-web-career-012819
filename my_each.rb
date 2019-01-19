@@ -7,7 +7,7 @@ i = 0
       yield(collection[i])
       i = i + 1
     end
-    collection
+    collection.each { |item| puts item}
   else
     puts 
   end
