@@ -1,5 +1,4 @@
 def my_each(collection)
-  # collection.each { |item| puts item}
 if block_given?
 i = 0
 
