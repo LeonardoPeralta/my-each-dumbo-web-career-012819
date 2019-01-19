@@ -1,6 +1,5 @@
 def my_each(collection)
 #  collection.each { |item| puts item}
-# names.each { |name| puts "#{name}"}
 if block_given?
 i = 0
 
@@ -10,6 +9,6 @@ i = 0
     end
     collection
   else
-    puts
+    puts 
   end
 end
