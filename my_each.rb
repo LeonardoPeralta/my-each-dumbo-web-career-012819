@@ -9,6 +9,6 @@ i = 0
     end
     collection.each { |item| puts item}
   else
-    puts 
+    puts
   end
 end
