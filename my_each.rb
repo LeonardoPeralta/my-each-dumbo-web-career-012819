@@ -9,6 +9,6 @@ i = 0
     end
     collection
   else
-    puts 
+    puts
   end
 end
